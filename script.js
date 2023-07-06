@@ -23,7 +23,7 @@ eateriesArray.forEach(element => {
     card.setAttribute("class", "card");
     // card.setAttribute("style", "width: 18rem;");
 
-    card_image.setAttribute("src", "/images/img"+i++ +".jpg");
+    card_image.setAttribute("src", "images/img"+i++ +".jpg");
     card_image.setAttribute("class", "card-img-top");
     card_image.setAttribute("alt", "...");
 
@@ -35,7 +35,7 @@ eateriesArray.forEach(element => {
     card_text.setAttribute("class", "card-text");
     card_text.innerHTML = "Location: Lorem ipsum dolor sit uno";
 
-    card_btn.setAttribute("href", "./details-"+(i-1)+".html");
+    card_btn.setAttribute("href", "details-"+(i-1)+".html");
     card_btn.setAttribute("class", "btn btn-primary");
     card_btn.innerHTML = "Menu & More";
 });
